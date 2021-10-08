@@ -26,6 +26,7 @@ export class SOR {
         42: '0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A',
         137: '0xa1B2b503959aedD81512C37e9dce48164ec6a94d',
         250: '0x2FbEAbe2A5A439CACac06e9C110cd2C8e997ec21',
+        1285: '0x1C082E619Bf61C93638C3F7B3a2a2b25e34E1E53',
     };
 
     VAULTADDR: { [chainId: number]: string } = {
@@ -34,6 +35,7 @@ export class SOR {
         42: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
         137: '0x17df34c4c5ab414b4b4f2860af2303109cfd5a33',
         250: '0x8AaecB905499A8E75b820c0EAFd7d3c2620F4065',
+        1285: '0x78529AaB2064887d7c7Bd4F4361f22FF5A16724d',
     };
 
     WETHADDR: { [chainId: number]: string } = {
@@ -42,6 +44,7 @@ export class SOR {
         42: '0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1',
         137: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
         250: '0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83', // For Polygon this is actually wrapped MATIC
+        1285: '0x98878b06940ae243284ca214f92bb71a2b032b8a',
     };
 
     provider: BaseProvider;
