@@ -35,7 +35,7 @@ export class SOR {
         42: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
         137: '0x17df34c4c5ab414b4b4f2860af2303109cfd5a33',
         250: '0x8AaecB905499A8E75b820c0EAFd7d3c2620F4065',
-        1285: '0x78529AaB2064887d7c7Bd4F4361f22FF5A16724d',
+        1285: '0xbF7bbBbFb97721B143F7c584E2285607DF517e57',
     };
 
     WETHADDR: { [chainId: number]: string } = {
